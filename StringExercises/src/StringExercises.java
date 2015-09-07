@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class StringExercises {
 
+	public static void parseName(String str){
+		
+		String[] splitName = str.split(" ");
+		System.out.println(splitName[1]+" "+splitName[2]+" "+splitName[0]);
+
+	}
 	public static boolean forgivingPrompt (String str)
 	{
 		System.out.println(str);
@@ -24,7 +30,8 @@ public class StringExercises {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(forgivingPrompt("Why does the caged bird sing?"));
+		//System.out.println(forgivingPrompt("Why does the caged bird sing?"));
+		//parseName("Gentle Phillip Calin");
 	}
 
 }
